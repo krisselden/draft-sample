@@ -1,0 +1,6 @@
+Users
+<div>
+{{#each model as |user|}}
+  {{#link-to 'users.user.index' user}}{{user.firstName}}{{/link-to}}
+{{/each}}
+</div>
